@@ -1,3 +1,18 @@
-*{
-    box-sizing: border-box;
+
+/*Modificación carrusel*/
+.carousel,
+.carousel-inner {
+  width: 270px;
+  height: 215px;
+  margin: auto;
+}
+
+.marcas {
+  padding-top: 45px;
+  width: 60px;
+  height: 190px;
+}
+
+.carousel-inner {
+  height: 210px;
 }
