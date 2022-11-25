@@ -1,95 +1,147 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="icon" href="/src/Imágenes/cocalogohead.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/src/Imágenes/cocalogohead.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Productos Coca-Cola</title>
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
   </head>
-  
+
   <body>
-   <header class="container-fluid bg-green-600 d-flex justify-content-center">
-    <img class="w-25 h-25 py-3 py-sm-2" src="/src/Imágenes/cocalogo.png" alt="logo sitio web">
-    
-   
-   </header>
-   <nav class="navbar navbar-expand-lg navbar-success bg-green-400 p-3" id="menu">
-    <div class="container-fluid">
+    <header class="container-fluid bg-green-600 d-flex justify-content-center">
+      <img
+        class="w-25 h-25 py-3 py-sm-2"
+        src="/src/Imágenes/cocalogo.png"
+        alt="logo sitio web"
+      />
+    </header>
+    <nav
+      class="navbar navbar-expand-lg navbar-success bg-green-400 p-3"
+      id="menu"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-5 fw-bold"
+          >Menú
+          <span class="text-danger fs-5 fw-bold">Coca-Cola</span>
+        </a>
 
-      <a class="navbar-brand fs-5 fw-bold">Menú
-        <span class="text-danger fs-5 fw-bold">Coca-Cola</span>
-      </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/src/index.html">Inicio</a>
+            </li>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
+            <a
+              class="nav-link "
+              href="/src/catalogo.html"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Catálogo
+            </a>
 
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Catálogo
-          </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Coca-Cola</a></li>
+              <li><a class="dropdown-item" href="#">Sprite</a></li>
+              <li><a class="dropdown-item" href="#">Quatro</a></li>
+              <li><a class="dropdown-item" href="#">Del Valle</a></li>
+              <li><a class="dropdown-item" href="#">Powerade</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Ramo</a></li>
+            </ul>
 
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Coca-Cola</a></li>
-            <li><a class="dropdown-item" href="#">Sprite</a></li>
-            <li><a class="dropdown-item" href="#">Quatro</a></li>
-            <li><a class="dropdown-item" href="#">Del Valle</a></li>
-            <li><a class="dropdown-item" href="#">Powerade</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Ramo</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+
+            <li class="nav-item dropdown"></li>
           </ul>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            
-          </li>
-         
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Ej: Quatro" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ej: Quatro"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
       </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="/src/Imágenes/codigo.png" class="d-block w-100" alt="..." />
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="/src/Imágenes/promocion.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="/src/Imágenes/celular.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </nav>
 
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="3000">
-        <img src="/src/Imágenes/codigo.png" class="d-block w-100" alt="...">
-      </div>
-
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="/src/Imágenes/promocion.png" class="d-block w-100" alt="...">
-      </div>
-
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="/src/Imágenes/celular.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
-</html> 
+</html>
