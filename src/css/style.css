@@ -21,7 +21,6 @@ color: black;
 font-weight: bold;
 }
 
-
-
-
-
+.carousel-inner {
+    max-height: 100rem;
+}
