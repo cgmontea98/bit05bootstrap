@@ -1,5 +1,5 @@
 # bit05bootstrap
-## Proyecto en equipo
+Proyecto en equipo
 
 
 ## Sergio Hernandez y Cristian Montealegre
