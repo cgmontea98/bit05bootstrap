@@ -1,3 +1,4 @@
+
 nav,
 footer {
   color: white;
@@ -37,11 +38,11 @@ body {
   position: relative;
 }
 
-video {
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 267%;
-  object-fit: cover;
+video{
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 267%;
+object-fit: cover;
 }
