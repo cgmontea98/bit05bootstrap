@@ -33,753 +33,744 @@
     <!--CSS Propio-->
     <link rel="stylesheet" href="/src/style/cat.css" />
   </head>
-  <body class="degra">
-    <header class="container-fluid bg-green-600 d-flex justify-content-center">
-      <img
-        class="w-25 h-25 py-3 py-sm-2"
-        src="/src/img/cocalogo.png"
-        alt="logo sitio web"
-      />
-    </header>
+  <body style="background: linear-gradient(rgb(0, 0, 0), rgba(1, 61, 212, 0.821), rgb(0, 64, 255), rgba(0, 128, 0, 0.631))">
+    <div class="degra ">
+      <header class="container-fluid bg-green-600 d-flex justify-content-center">
+        <img
+          class="w-25 h-25 py-3 py-sm-2"
+          src="/src/img/cocalogo.png"
+          alt="logo sitio web"
+        />
+      </header>
 
-    <nav
-      class="navbar navbar-expand-lg navbar-success bg-danger p-3"
-      id="menu"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand fs-5 fw-bold"
-          >Menú <span class="text-danger fs-5 fw-bold">Coca-Cola</span></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/src/index.html"
-                >Inicio</a
-              >
-            </li>
-            <li>
-              <a
-                class="nav-link text-light bg-dark"
-                href="/src/catalogo.html"
-                role="button"
-                aria-expanded="false"
-                >Catálogo</a
-              >
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-            <li class="nav-item dropdown"></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <main>
-      <!--Slider-->
-      <div class="container-fluid">
-        <div class="row">
-          <div>
-            <h1 class="text-center">Marcas</h1>
-            <div
-              id="carouselExampleInterval"
-              class="carousel slide row justify-content-center"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <img
-                    src="/src/img/sldcoca.png"
-                    class="d-block w-100 py-5"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img
-                    src="/src/img/sprite.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="/src/img/quatro.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="/src/img/powerade.png"
-                    class="d-block w-100 marcas"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="/src/img/del-valle.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="/src/img/ramo.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Siguiente</span>
-              </button>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-success bg-danger p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-5 fw-bold"
+            >Menú <span class="text-danger fs-5 fw-bold">Coca-Cola</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/src/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link text-light bg-dark"
+                  href="/src/catalogo.html"
+                  role="button"
+                  aria-expanded="false"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              <li class="nav-item dropdown"></li>
+            </ul>
           </div>
-          <h2 class="text-center p-3">Productos</h2>
         </div>
-      </div>
+      </nav>
 
-      <!--Contenido principal-->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-l-1">
-            <!--Filtro 1-->
-            <article
-              class="d-none d-md-block align-self-start sticky-top text-center"
-            >
-              <div>
-                <h3>Escoge a tu gusto</h3>
-                <h3>Marcas</h3>
-                <ul class="list-group">
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="firstCheckbox"
+      <main>
+        <!--Slider-->
+        <div class="container-fluid">
+          <div class="row">
+            <div>
+              <h1 class="text-center text-light">Marcas</h1>
+              <div
+                id="carouselExampleInterval"
+                class="carousel slide row justify-content-center"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img
+                      src="/src/img/sldcoca.png"
+                      class="d-block w-100 py-5"
+                      alt="..."
                     />
-                    <label class="form-check-label" for="firstCheckbox"
-                      >Coca-Cola</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="secondCheckbox"
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="/src/img/sprite.png"
+                      class="d-block w-100"
+                      alt="..."
                     />
-                    <label class="form-check-label" for="secondCheckbox"
-                      >Sprite</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/src/img/quatro.png"
+                      class="d-block w-100"
+                      alt="..."
                     />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Quatro</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/src/img/powerade.png"
+                      class="d-block w-100 marcas"
+                      alt="..."
                     />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Del Valle</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/src/img/del-valle.png"
+                      class="d-block w-100"
+                      alt="..."
                     />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Powerade</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/src/img/ramo.png"
+                      class="d-block w-100"
+                      alt="..."
                     />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Snacks de Ramo</label
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="col">
-                <h3>Tipo de bebida</h3>
-                <ul class="list-group">
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="firstCheckbox"
-                    />
-                    <label class="form-check-label" for="firstCheckbox"
-                      >Gaseosa</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="secondCheckbox"
-                    />
-                    <label class="form-check-label" for="secondCheckbox"
-                      >Jugo</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
-                    />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Quatro</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
-                    />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Hidratantes</label
-                    >
-                  </li>
-                  <li class="list-group-item">
-                    <input
-                      class="form-check-input me-1"
-                      type="checkbox"
-                      value=""
-                      id="thirdCheckbox"
-                    />
-                    <label class="form-check-label" for="thirdCheckbox"
-                      >Acompañantes</label
-                    >
-                  </li>
-                </ul>
-              </div>
-            </article>
-            <!--Filtro 2-->
-            <div
-              class="d-lg-none d-xl-none d-xxl-none d-md-none col-sm-2 col-md-2"
-            >
-              <div class="row">
+                  </div>
+                </div>
                 <button
-                  class="btn btn-danger align-self-start sticky-top text-center t-0"
+                  class="carousel-control-prev"
                   type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasScrolling"
-                  aria-controls="offcanvasScrolling"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="prev"
                 >
-                  Filtrar
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Anterior</span>
                 </button>
-
-                <div
-                  class="offcanvas offcanvas-start"
-                  data-bs-scroll="true"
-                  data-bs-backdrop="false"
-                  tabindex="-1"
-                  id="offcanvasScrolling"
-                  aria-labelledby="offcanvasScrollingLabel"
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="next"
                 >
-                  <div class="offcanvas-header">
-                    <h3>Escoge a tu gusto</h3>
-                    <h3>Marcas</h3>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="offcanvas"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    <ul class="list-group">
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="firstCheckbox"
-                        />
-                        <label class="form-check-label" for="firstCheckbox"
-                          >Coca-Cola</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="secondCheckbox"
-                        />
-                        <label class="form-check-label" for="secondCheckbox"
-                          >Sprite</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Quatro</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Del Valle</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Powerade</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Snacks de Ramo</label
-                        >
-                      </li>
-                    </ul>
-                    <h3>Tipo de bebida</h3>
-                    <ul class="list-group">
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="firstCheckbox"
-                        />
-                        <label class="form-check-label" for="firstCheckbox"
-                          >Gaseosa</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="secondCheckbox"
-                        />
-                        <label class="form-check-label" for="secondCheckbox"
-                          >Jugo</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Quatro</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Hidratantes</label
-                        >
-                      </li>
-                      <li class="list-group-item">
-                        <input
-                          class="form-check-input me-1"
-                          type="checkbox"
-                          value=""
-                          id="thirdCheckbox"
-                        />
-                        <label class="form-check-label" for="thirdCheckbox"
-                          >Acompañantes</label
-                        >
-                      </li>
-                    </ul>
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-center p-3 text-light">Productos</h2>
+          </div>
+        </div>
+
+        <!--Contenido principal para filtro-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-l-1">
+              <!--Filtro 1-->
+              <article
+                class="d-none d-md-block align-self-start sticky-top text-center bg-info" id="contenido_principal"
+                >
+                <div>
+                  <h3 id="tit3">Escoge a tu gusto</h3>
+                  <h3>Marcas</h3>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        value=""
+                        id="coca"
+                      />
+                      <label class="form-check-label" for="coca"
+                        >Coca-Cola</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                      
+                        value=""
+                        id="sprite"
+                      />
+                      <label class="form-check-label" for="sprite"
+                        >Sprite</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        
+                        value=""
+                        id="quatro"
+                      />
+                      <label class="form-check-label" for="quatro"
+                        >Quatro</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        value=""
+                        id="del_Valle"
+                      />
+                      <label class="form-check-label" for="del_Valle"
+                        >Del Valle</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        
+                        value=""
+                        id="powerade"
+                      />
+                      <label class="form-check-label" for="powerade"
+                        >Powerade</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        
+                        value=""
+                        id="snacks"
+                      />
+                      <label class="form-check-label" for="snacks"
+                        >Snacks de Ramo</label
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3>Tipo de productos</h3>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        value=""
+                        id="Gaseosa"
+                      />
+                      <label class="form-check-label" for="Gaseosa"
+                        >Gaseosa</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        value=""
+                        id="Jugo"
+                      />
+                      <label class="form-check-label" for="Jugo"
+                        >Jugo</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        value=""
+                        id="Hidratantes"
+                      />
+                      <label class="form-check-label" for="Hidratantes"
+                        >Hidratantes</label
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <input
+                        class="form-check-input me-1"
+                        type="checkbox"
+                        value=""
+                        id="Acompañantes"
+                      />
+                      <label class="form-check-label" for="Acompañantes"
+                        >Acompañantes</label
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </article>
+              <!--Filtro 2-->
+              <div
+                class="d-lg-none d-xl-none d-xxl-none d-md-none col-sm-2 col-md-2"
+              >
+                <div class="row">
+                  <button
+                    class="btn btn-danger align-self-start sticky-top text-center t-0"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling"
+                  >
+                    Filtrar
+                  </button>
+
+                  <div
+                    class="offcanvas offcanvas-start"
+                    data-bs-scroll="true"
+                    data-bs-backdrop="false"
+                    tabindex="-1"
+                    id="offcanvasScrolling"
+                    aria-labelledby="offcanvasScrollingLabel"
+                  >
+                    <div class="offcanvas-header">
+                      <h3>Escoge a tu gusto</h3>
+                      <h3>Marcas</h3>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="firstCheckbox"
+                          />
+                          <label class="form-check-label" for="firstCheckbox"
+                            >Coca-Cola</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="secondCheckbox"
+                          />
+                          <label class="form-check-label" for="secondCheckbox"
+                            >Sprite</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Quatro</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Del Valle</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Powerade</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Snacks de Ramo</label
+                          >
+                        </li>
+                      </ul>
+                      <h3>Tipo de bebida</h3>
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="firstCheckbox"
+                          />
+                          <label class="form-check-label" for="firstCheckbox"
+                            >Gaseosa</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="secondCheckbox"
+                          />
+                          <label class="form-check-label" for="secondCheckbox"
+                            >Jugo</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Quatro</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Hidratantes</label
+                          >
+                        </li>
+                        <li class="list-group-item">
+                          <input
+                            class="form-check-input me-1"
+                            type="checkbox"
+                            value=""
+                            id="thirdCheckbox"
+                          />
+                          <label class="form-check-label" for="thirdCheckbox"
+                            >Acompañantes</label
+                          >
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!--Productos-->
-          <div class="col-sm-12 col-md-10 col-l-10">
-            <section class="row m-2 justify-content-center">
-              <!--Producto #1-->
+            <!--Productos-->
+            <div class="col-sm-12 col-md-10 col-l-10" >
+              <section class="row m-2 justify-content-center" id="productos">
+                <!--Producto #1-->
 
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/tajada-miti-equilibrio-x-5.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Muffin equilibrio</h5>
+                <div class="card p-2 m-2 border-danger Acompañantes Snacks" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/tajada-miti-equilibrio-x-5.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Muffin equilibrio</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Snacks</li>
+                    <li class="list-group-item">Cont: 60 gr</li>
+                    <li class="list-group-item">$3.200</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Snacks</li>
-                  <li class="list-group-item">Cont: 60 gr</li>
-                  <li class="list-group-item">$3.200</li>
-                </ul>
-              </div>
-              <!--Producto #2-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/heroe_image_12_oct_22_af_2_visual_coca-cola_400_ml_pet_624x624_px_2.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Coca Cola Original 250 ml</h5>
+                <!--Producto #2-->
+                <div class="card p-2 m-2 border-danger cocaCola" style="width: 10rem">
+                  <img 
+                    src="/src/img/productos/heroe_image_12_oct_22_af_2_visual_coca-cola_400_ml_pet_624x624_px_2.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Coca Cola Original 250 ml</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 6und</li>
+                    <li class="list-group-item">$8.900</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 6und</li>
-                  <li class="list-group-item">$8.900</li>
-                </ul>
-              </div>
-              <!--Producto #3-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/salpicon_500_ml_1_1.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Jugo Del Valle Salpicón 500 ml</h5>
+                <!--Producto #3-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/salpicon_500_ml_1_1.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Jugo Del Valle Salpicón 500 ml</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Jugo</li>
+                    <li class="list-group-item">Cont: 3und</li>
+                    <li class="list-group-item">$4.950</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Jugo</li>
-                  <li class="list-group-item">Cont: 3und</li>
-                  <li class="list-group-item">$4.950</li>
-                </ul>
-              </div>
-              <!--Producto #4-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/papas-caseras-pollo-docena-300g.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Papas Caseras Pollo 25 gr</h5>
+                <!--Producto #4-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/papas-caseras-pollo-docena-300g.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Papas Caseras Pollo 25 gr</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Snacks</li>
+                    <li class="list-group-item">Cont: 12und</li>
+                    <li class="list-group-item">$15.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Snacks</li>
-                  <li class="list-group-item">Cont: 12und</li>
-                  <li class="list-group-item">$15.000</li>
-                </ul>
-              </div>
-              <!--Producto #5-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/160121-6-pack.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Powerade Frutas Tropicales 500 ml</h5>
+                <!--Producto #5-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/160121-6-pack.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Powerade Frutas Tropicales 500 ml</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Hidratantes</li>
+                    <li class="list-group-item">Cont: 6Und</li>
+                    <li class="list-group-item">$10.500</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Hidratantes</li>
-                  <li class="list-group-item">Cont: 6Und</li>
-                  <li class="list-group-item">$10.500</li>
-                </ul>
-              </div>
-              <!--Producto #6-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/sin-azucar-135767-6-pack.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Lata Coca-Cola Sin Azúcar 330ml</h5>
+                <!--Producto #6-->
+                <div class="card p-2 m-2 border-danger cocaCola" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/sin-azucar-135767-6-pack.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lata Coca-Cola Sin Azúcar 330ml</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 6 und</li>
+                    <li class="list-group-item">$15.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 6 und</li>
-                  <li class="list-group-item">$15.000</li>
-                </ul>
-              </div>
-              <!--Producto #7-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/papas-caseras-lim_n-105g_1.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Papas Caseras Limón 105 gr</h5>
+                <!--Producto #7-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/papas-caseras-lim_n-105g_1.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Papas Caseras Limón 105 gr</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Snask</li>
+                    <li class="list-group-item">Cont: 105gr</li>
+                    <li class="list-group-item">$4.800</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Snask</li>
-                  <li class="list-group-item">Cont: 105gr</li>
-                  <li class="list-group-item">$4.800</li>
-                </ul>
-              </div>
-              <!--Producto #8-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/heroe_image_13_oct_22_af_visual_quatro_250_ml_pet_624x624_px.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Gaseosa Quatro Original 250ml</h5>
+                <!--Producto #8-->
+                <div class="card p-2 m-2 border-danger cuatro" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/heroe_image_13_oct_22_af_visual_quatro_250_ml_pet_624x624_px.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Gaseosa Quatro Original 250ml</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 250ml</li>
+                    <li class="list-group-item">$7.200</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 250ml</li>
-                  <li class="list-group-item">$7.200</li>
-                </ul>
-              </div>
-              <!--Producto #9-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/135663_1.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">2 Pack Coca Cola Original 2.5L</h5>
+                <!--Producto #9-->
+                <div class="card p-2 m-2 border-danger cocaCola" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/135663_1.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">2 Pack Coca Cola Original 2.5L</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gasesosa</li>
+                    <li class="list-group-item">Cont: 2und</li>
+                    <li class="list-group-item">$16.400</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gasesosa</li>
-                  <li class="list-group-item">Cont: 2und</li>
-                  <li class="list-group-item">$16.400</li>
-                </ul>
-              </div>
-              <!--Producto #10-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/chocoramo-x-5und-x325gr.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Chocoramo 65 gr</h5>
+                <!--Producto #10-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/chocoramo-x-5und-x325gr.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Chocoramo 65 gr</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Snaks</li>
+                    <li class="list-group-item">Cont: 5und</li>
+                    <li class="list-group-item">$7.600</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Snaks</li>
-                  <li class="list-group-item">Cont: 5und</li>
-                  <li class="list-group-item">$7.600</li>
-                </ul>
-              </div>
-              <!--Producto #11-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/120034_1.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    Jugo Del Valle Piña Mandarina 946 ml
-                  </h5>
+                <!--Producto #11-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/120034_1.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Jugo Del Valle Piña Mandarina 946 ml
+                    </h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Jugo</li>
+                    <li class="list-group-item">Cont: 3und</li>
+                    <li class="list-group-item">$9.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Jugo</li>
-                  <li class="list-group-item">Cont: 3und</li>
-                  <li class="list-group-item">$9.000</li>
-                </ul>
-              </div>
-              <!--Producto #12-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/10-sprite_1.5l.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Gaseosa Sprite Original 1.5 L</h5>
+                <!--Producto #12-->
+                <div class="card p-2 m-2 border-danger sprite" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/10-sprite_1.5l.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Gaseosa Sprite Original 1.5 L</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 2Und</li>
+                    <li class="list-group-item">$8.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 2Und</li>
-                  <li class="list-group-item">$8.000</li>
-                </ul>
-              </div>
-              <!--Producto #13-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/heroe_image_13_oct_22_af_visual_quatro_3l_pet_624x624_px.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Gaseosa Quatro Original 3 L</h5>
+                <!--Producto #13-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/heroe_image_13_oct_22_af_visual_quatro_3l_pet_624x624_px.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title ">Gaseosa Quatro Original 3 L</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 2und</li>
+                    <li class="list-group-item">$13.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 2und</li>
-                  <li class="list-group-item">$13.000</li>
-                </ul>
-              </div>
-              <!--Producto #14-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/160077-2-pack.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    Jugo Del Valle Fresh Mandarina 2.5 L
-                  </h5>
+                <!--Producto #14-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/160077-2-pack.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Jugo Del Valle Fresh Mandarina 2.5 L
+                    </h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Jugo</li>
+                    <li class="list-group-item">Cont: 2und</li>
+                    <li class="list-group-item">$10.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Jugo</li>
-                  <li class="list-group-item">Cont: 2und</li>
-                  <li class="list-group-item">$10.000</li>
-                </ul>
-              </div>
-              <!--Producto #15-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/heroimage_cceth_2.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Gaseosa Sprite Sin Azúcar 1.5 L</h5>
+                <!--Producto #15-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/heroimage_cceth_2.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Gaseosa Sprite Sin Azúcar 1.5 L</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 2und</li>
+                    <li class="list-group-item">$8.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 2und</li>
-                  <li class="list-group-item">$8.000</li>
-                </ul>
-              </div>
-              <!--Producto #16-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/tajada-miti-equilibrio-x-5.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Tajada Miti Equilibrio 32 gr</h5>
+                <!--Producto #16-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/tajada-miti-equilibrio-x-5.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Tajada Miti Equilibrio 32 gr</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Snacks</li>
+                    <li class="list-group-item">Cont: 5und</li>
+                    <li class="list-group-item">$5.800</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Snacks</li>
-                  <li class="list-group-item">Cont: 5und</li>
-                  <li class="list-group-item">$5.800</li>
-                </ul>
-              </div>
-              <!--Producto #17-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/banderas_400_ml_1.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Coca Cola Sin Azúcar 400 ml</h5>
+                <!--Producto #17-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/banderas_400_ml_1.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Coca Cola Sin Azúcar 400 ml</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Gaseosa</li>
+                    <li class="list-group-item">Cont: 6und</li>
+                    <li class="list-group-item">$12.000</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Gaseosa</li>
-                  <li class="list-group-item">Cont: 6und</li>
-                  <li class="list-group-item">$12.000</li>
-                </ul>
-              </div>
-              <!--Producto #18-->
-              <div class="card p-2 m-2 border-danger" style="width: 10rem">
-                <img
-                  src="/src/img/productos/ponqu_-ramo-tradicional-x230gr_1.webp"
-                  class="card-img-top"
-                  alt="img dummy"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ponqué Ramo Tradicional 230 gr</h5>
+                <!--Producto #18-->
+                <div class="card p-2 m-2 border-danger" style="width: 10rem">
+                  <img
+                    src="/src/img/productos/ponqu_-ramo-tradicional-x230gr_1.webp"
+                    class="card-img-top"
+                    alt="img dummy"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ponqué Ramo Tradicional 230 gr</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tipo: Snacks</li>
+                    <li class="list-group-item">Cont: 6und</li>
+                    <li class="list-group-item">$4.800</li>
+                  </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tipo: Snacks</li>
-                  <li class="list-group-item">Cont: 6und</li>
-                  <li class="list-group-item">$4.800</li>
-                </ul>
-              </div>
-            </section>
+              </section>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-    <div>
+      </main>
+
       <footer class="container text-center text-black p-5">
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-6">
@@ -798,19 +789,16 @@
               <li class="fb">
                 <a
                   href="https://www.facebook.com/cocacolacolombia/?mibextid=ZbWKwL"
-                  
                   ><i class="bi bi-facebook"></i
                 ></a>
               </li>
               <li class="ig">
-                <a
-                  href="https://instagram.com/cocacolacol?igshid=YzdkMWQ2MWU="
-                  
+                <a href="https://instagram.com/cocacolacol?igshid=YzdkMWQ2MWU="
                   ><i class="bi bi-instagram"></i
                 ></a>
               </li>
               <li class="yt">
-                <a href="https://youtube.com/@Coca-Cola" 
+                <a href="https://youtube.com/@Coca-Cola"
                   ><i class="bi bi-youtube"></i
                 ></a>
               </li>
@@ -836,11 +824,13 @@
         </div>
       </footer>
     </div>
-
+    <p id="prueba"></p>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="/scritp.js"></script>
   </body>
 </html>
