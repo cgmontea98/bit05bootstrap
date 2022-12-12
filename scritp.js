@@ -1,4 +1,4 @@
-//checkbox de Marca
+/* //checkbox de Marca
 let check1 = document.getElementById("coca");
  let check2 = document.getElementById("sprite");
 let check3 = document.getElementById("quatro");
@@ -18,6 +18,7 @@ function filtro1() {
   if (checked) {
     alert('dio click')
   }
-}
+} */
+
 
 
