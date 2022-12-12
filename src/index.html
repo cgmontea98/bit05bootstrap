@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: rgb(0, 94, 0)">
+  <body>
     <header class="container-fluid bg-green-600 d-flex justify-content-center">
       <img
         class="w-25 h-25 py-3 py-sm-2"
@@ -22,50 +22,46 @@
       />
     </header>
     <nav
-      class="navbar navbar-expand-lg navbar-success bg-green-400 p-3"
-      id="menu"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand fs-5 fw-bold"
-          >Menú
-          <span class="text-danger fs-5 fw-bold">Coca-Cola</span>
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-
-            <a
-              class="nav-link"
-              href="/src/catalogo.html"
-              role="button"
-              aria-expanded="false"
-            >
-              Catálogo
-            </a>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-
-            <li class="nav-item dropdown"></li>
-          </ul>
+      class="container navbar navbar-expand-lg navbar-success bg-green-400 p-3 position-relative"
+      id="menu">
+      <div class="row position-absolute top-50 start-50">
+        <div class="">
+          <a class="navbar-brand fs-5 fw-bold"
+            >Menú
+            <span class="text-danger fs-5 fw-bold">Coca-Cola</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <a
+                class="nav-link"
+                href="/src/catalogo.html"
+                role="button"
+                aria-expanded="false"
+              >
+                Catálogo
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item dropdown"></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </div> 
     </nav>
 
     <div
