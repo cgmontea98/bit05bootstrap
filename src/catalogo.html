@@ -32,54 +32,43 @@
     />
     <!--CSS Propio-->
     <link rel="stylesheet" href="/src/style/cat.css" />
+    <link rel="stylesheet" href="/src/css/style.css">
   </head>
-  <body style="background: linear-gradient(rgb(0, 0, 0), rgba(1, 61, 212, 0.821), rgb(0, 64, 255), rgba(0, 128, 0, 0.631))">
+  <body>
     <div class="degra ">
       <header class="container-fluid bg-green-600 d-flex justify-content-center">
         <img
           class="w-25 h-25 py-3 py-sm-2"
-          src="/src/img/cocalogo.png"
+          src="/src/Imagénes/cocalogon.png"
           alt="logo sitio web"
         />
+        <video class="position-absolute" muted="muted" autoplay="autoplay" loop="loop">
+          <source src="/src/video/fondonavidad.mp4"
+           type="video/mp4">
+         </video>
       </header>
 
-      <nav class="navbar navbar-expand-lg navbar-success bg-danger p-3" id="menu">
-        <div class="container-fluid">
-          <a class="navbar-brand fs-5 fw-bold"
-            >Menú <span class="text-danger fs-5 fw-bold">Coca-Cola</span></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+      <nav class="justify-content-center navbar navbar-expand-lg navbar-success p-3" id="menu">
+        <div>
+          <a class="justify-content-center navbar-brand fs-1 fw-bold">Menú
+            <span class="text-success fs-1 fw-bold">Coca-Cola</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/src/index.html"
-                  >Inicio</a
-                >
+                <a class="nav-link active fs-3" aria-current="page" href="/src/index.html">Inicio</a>
               </li>
-              <li>
-                <a
-                  class="nav-link text-light bg-dark"
-                  href="/src/catalogo.html"
-                  role="button"
-                  aria-expanded="false"
-                  >Catálogo</a
-                >
+              <a class="nav-link fs-3" href="/src/catalogo.html" role="button"  aria-expanded="false">
+                Catálogo
+              </a>
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#">Contacto</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-              <li class="nav-item dropdown"></li>
+              <li class="nav-item dropdown">
+              </li>
             </ul>
           </div>
         </div>
@@ -176,7 +165,7 @@
             <div class="col-md-2 col-l-1">
               <!--Filtro 1-->
               <article
-                class="d-none d-md-block align-self-start sticky-top text-center bg-info" id="contenido_principal"
+                class="d-none d-md-block align-self-start sticky-top text-center" id="contenido_principal"
                 >
                 <div>
                   <h3 id="tit3">Escoge a tu gusto</h3>
@@ -823,8 +812,8 @@
           </div>
         </div>
       </footer>
-    </div>
-    <p id="prueba"></p>
+    
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
