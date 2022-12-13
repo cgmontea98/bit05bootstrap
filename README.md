@@ -4,7 +4,7 @@
 
 ##  Tecnologías
 
-**Cliente:** (http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png)] HTML, (https://e1.pngegg.com/pngimages/326/868/png-clipart-css3-badge-blue-and-white-css-icon-thumbnail.png)] CSS, BOOTSTRAP Y JAVASCRIPT
+**Cliente:** [![portfolio] (http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png)] HTML, (https://e1.pngegg.com/pngimages/326/868/png-clipart-css3-badge-blue-and-white-css-icon-thumbnail.png)] CSS, BOOTSTRAP Y JAVASCRIPT
 
 
 ## 🔗 Links
