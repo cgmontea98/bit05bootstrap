@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <header class="w-30 h-30 container-fluid d-flex justify-content-center">
+    <header class="h-30 container-fluid d-flex justify-content-center">
       <img
         class="cocalogon h-25 py-3 py-sm-2"
         src="/src/Imagénes/cocalogon.png"
@@ -88,34 +88,40 @@
         </div>
       </div>
     </nav>
-    <form class="justify-content-center">
-      <div class="w-75 text-white">
+    <!--Formulario Registro-->
+    <form id="form" class="container">
+      <div class="row justify-content-center">
+      <div class="col-sm-5 w-75 text-white">
         <label for="exampleInputEmail1" class="form-label fs-4">Correo Electrónico</label>
         <input
           type="email"
+          name="email"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
-        <div id="emailHelp" class="form-text text-success fs-5">
-          No compartiremos tu correo con nadie más.
+        <div id="emailHelp" class="bg-black form-text text-danger fs-5">
+          *No compartiremos tu correo con nadie más*
         </div>
       </div>
-      <div class="w-50">
+      <div class="col-sm-5 w-75">
         <label for="exampleInputPassword1" class="form-label text-white fs-4">Contraseña</label>
         <input
           type="password"
+          name="pass"
           class="form-control"
           id="exampleInputPassword1"
         />
       </div>
-      <div class="w-25 form-check">
+      <div class="d-flex form-check justify-content-center p-5">
         <input type="checkbox" class="form-check-input bg-success" id="exampleCheck1" />
         <label class="form-check-label text-white" for="exampleCheck1">Acepto T&C</label>
+        <button type="submit" id="registro" class="btn btn-success mx-4">Registrarme</button>
       </div>
-      <button type="submit" class="btn btn-success">Registrarme</button>
+      
+    </div>
     </form>
-
+<!--Footer-->
     <footer class="container text-center text-white p-5">
       <div class="row justify-content-center">
         <div class="col-lg-3 col-md-6">
@@ -168,5 +174,6 @@
         </div>
       </div>
     </footer>
+    <script src="/scritp.js"></script>
   </body>
 </html>
