@@ -1,10 +1,10 @@
-# bit05bootstrap
+# Proyecto: Cátalogo de productos Coca-Cola
 
 ![Logo](https://tentulogo.com/wp-content/uploads/HistoriadellogodeCocaCola.jpg)
 
-## Tech Stack
+##  Tecnologías
 
-**Client:** HTML, CSS, BOOTSTRAP Y JAVASCRIPT
+**Cliente:** (http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png)] HTML, (https://e1.pngegg.com/pngimages/326/868/png-clipart-css3-badge-blue-and-white-css-icon-thumbnail.png)] CSS, BOOTSTRAP Y JAVASCRIPT
 
 
 ## 🔗 Links
