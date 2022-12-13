@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Se brinda opción de actulizar página de envios y de catalogo de CocaCola a un entorno Navideño agregando un diseño diferente. 
+Se brinda opción de actulizar página, para envios de productos ofertados por CocaCola, a un entorno Navideño agregando un diseño diferente. 
 
 ##  Tecnologías
 
