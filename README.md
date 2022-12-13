@@ -1,10 +1,10 @@
-# Proyecto: Cátalogo de productos Coca-Cola
+# Proyecto: Cátalogo de Productos Coca-Cola
 
 ![Logo](https://tentulogo.com/wp-content/uploads/HistoriadellogodeCocaCola.jpg)
 
 ## Descripción
 
-Se brinda opción de actualizar página de envios y de catálogo de Coca-Cola a un entorno navideño agregando un diseño diferente. 
+Se brinda opción de actualizar página de envíos y de catálogo de Coca-Cola a un entorno navideño agregando un diseño diferente. 
 
 ##  Tecnologías
 
