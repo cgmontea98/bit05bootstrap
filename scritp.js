@@ -14,7 +14,7 @@ check6.addEventListener('change', filtro1, false)
 */
 
 let check1 = document.getElementById("coca");
-check1.addEventListener("clcik", filtro1, false);
+check1.addEventListener("click", filtro1, false);
 function filtro1() {
   const checked = check1.checked;
   if (checked) {
